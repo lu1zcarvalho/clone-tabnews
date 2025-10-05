@@ -1,0 +1,9 @@
+# adicionar ao .gitignore
+echo ".next/" >> .gitignore
+
+# remover a pasta .next do controle do git
+git rm -r --cached .next
+
+git add .gitignore
+git commit -m "chore: ignore .next build output"
+git push origin main
