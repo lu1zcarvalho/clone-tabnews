@@ -1,0 +1,25 @@
+{
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "description": "Project to improve my knowledge about programming",
+  "homepage": "https://github.com/lu1zcarvalho/clone-tabnews#readme",
+  "bugs": {
+    "url": "https://github.com/lu1zcarvalho/clone-tabnews/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lu1zcarvalho/clone-tabnews.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
